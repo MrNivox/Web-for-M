@@ -5,3 +5,112 @@
     font-size: 16px;
     border: none;
 }
+
+.dropdown1{
+position: relative;
+display: inline-block;
+}
+
+.drop-c-1{
+    display: none;
+    position: absolute;
+    background-color: red;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.drop-c-1 a{
+
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.drop-c-1 a:hover {
+    background-color: chartreuse;
+}
+
+.dropdown1:hover .drop-c-1{display: block;}
+
+.dropdown1:hover .dropB1 {background-color: #3e8e41;}
+
+
+.dropB2{
+    background-color: turquoise;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+.dropdown2{
+position: relative;
+display: inline-block;
+}
+
+.drop-c-2{
+    display: none;
+    position: absolute;
+    background-color: red;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.drop-c-2 a{
+
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.drop-c-2 a:hover {
+    background-color: chartreuse;
+}
+
+.dropdown2:hover .drop-c-2{display: block;}
+
+.dropdown2:hover .dropB2 {background-color: #3e8e41;}
+
+
+
+.dropB3{
+    background-color: turquoise;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+.dropdown3{
+position: relative;
+display: inline-block;
+}
+
+.drop-c-3{
+    display: none;
+    position: absolute;
+    background-color: red;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.drop-c-3 a{
+
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.drop-c-3 a:hover {
+    background-color: chartreuse;
+}
+
+.dropdown3:hover .drop-c-3{display: block;}
+
+.dropdown3:hover .dropB3 {background-color: #3e8e41;}
